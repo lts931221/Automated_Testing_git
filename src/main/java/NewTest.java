@@ -43,7 +43,7 @@ public class NewTest {
     @Test
     public void testClass() {
         driver.get("http://www.baidu.com");
-        System.out.println("heloo word");
+        System.out.println("heloo word1");
         By inputBox = By.id("kw");
         By searchButton = By.id("su");
         //智能等待元素加载出来
