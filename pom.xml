@@ -36,6 +36,10 @@
                 <configuration>
                     <forkMode>once</forkMode>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <workingDirectory>target/</workingDirectory>
                 </configuration>
             </plugin>
         </plugins>
